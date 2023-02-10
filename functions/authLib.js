@@ -44,7 +44,7 @@ module.exports.getAuthUnoloToken = async () => {
         console.log(resp);
     }
     catch (err) {
-        console.log(err);
+        console.log("Error in getAuthUnoloToken::",err);
     }
     return resp;
 }
